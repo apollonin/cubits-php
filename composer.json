@@ -1,0 +1,13 @@
+{
+    "name": "cubits/cubits-php",
+    "authors": [
+        {
+            "name": "Cubits Dev",
+            "email": "support@cubits.com"
+        }
+    ],
+    "autoload": {
+        "classmap": ["lib"]
+    },
+    "require": {}
+}
