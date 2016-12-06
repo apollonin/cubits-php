@@ -170,7 +170,7 @@ class Cubits
     public function sendMoney($address, $amount)
     {
         $params = array(
-            "amount" => number_format($amount, 2, '.', ''),
+            "amount" => number_format($amount, 8, '.', ''),
             "address" => $address
         );
         $response = json_decode($this->post("send_money", $params));
